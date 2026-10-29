@@ -53,7 +53,7 @@
 
 ## 当前复现状态
 
-本仓库目前仅包含整理文档，暂不提供未经验证的安装或一键运行命令。第一版复现需完成：
+本仓库目前包含整理文档与依赖文件，尚未迁入实验代码；依赖安装方法见下文，暂不提供一键实验运行命令。第一版复现需完成：
 
 1. 确定原始数据到阶段网络 RDS 的唯一生成入口及参数。
 2. 明确正式有向网络因子表、样本键和标签的生成链。
@@ -65,7 +65,29 @@
 
 现有数据来源目录为国泰安数据集；传统因子构建还依赖本地下载的财务、分析师、交易估值与融资融券文件。原始数据和大型中间矩阵不随此次整理复制。正式公开前应明确数据授权和可分发范围，提供字段说明及获取步骤。
 
-项目使用 R 和 Python。已见依赖包括 data.table、igraph、tidyverse、sandwich、lmtest，以及 numpy、pandas、scipy、lightgbm 等；这不是完整依赖列表，也不是已验证的版本约束。依赖锁文件将在代码迁移及环境验证后生成。
+项目使用 R 和 Python，现已提供：
+
+- [requirements.txt](requirements.txt)：固定本机 Python 3.9.6 环境中 7 个直接依赖的版本，包括 LightGBM 的 scikit-learn 接口依赖和读取 XLSX 的 openpyxl；不锁定全部传递依赖。
+- [renv.lock](renv.lock)：由 renv 根据本机 R 4.5.1 已安装包生成，记录 108 个包，包含核心 R 依赖及其递归依赖。renv 1.3.1 是本次生成锁文件时使用的工具版本。
+
+覆盖范围是脚本清单中已确认的网络矩阵重建、特征、预测、对照和资产定价流程，以及传统因子候选入口。尚未确定的原始阶段网络估计、其他历史实验及论文排版工具不在本次依赖范围；这不是整个原研究目录的完整环境快照。
+
+在仓库根目录安装 Python 依赖：
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+建议使用与记录一致的 R 4.5.1，在仓库根目录的 R 会话执行：
+
+```r
+install.packages("renv", repos = "https://cloud.r-project.org")
+renv::restore(lockfile = "renv.lock", prompt = FALSE)
+```
+
+锁文件不会安装 R 本身，也不锁定操作系统编译库。已验证当前环境中的 Python 包导入、LightGBM 小样本训练/预测、R 核心包加载和锁文件格式；尚未在全新环境执行完整安装恢复或实验复现。
 
 ## 代码来源与许可
 

@@ -1,0 +1,13 @@
+# Scope: confirmed prediction/evaluation pipelines and traditional-factor candidate.
+# Versions observed in the local Python 3.9.6 environment on 2026-10-29.
+# Direct dependencies only; this is not a complete transitive lock file.
+# Excludes manuscript tools and unconfirmed legacy experiment scripts.
+# Install with: python -m pip install -r requirements.txt
+# LightGBM uses its scikit-learn API; openpyxl reads financial XLSX inputs.
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+matplotlib==3.9.4
+lightgbm==4.6.0
+scikit-learn==1.6.1
+openpyxl==3.1.5
