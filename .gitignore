@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
