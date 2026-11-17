@@ -21,7 +21,7 @@ jobs:
       PYTHONPATH: src
       PYTHONDONTWRITEBYTECODE: '1'
       MPLBACKEND: Agg
-      MPLCONFIGDIR: ${{ runner.temp }}/matplotlib
+      MPLCONFIGDIR: ${{ github.workspace }}/.cache/matplotlib
       OMP_NUM_THREADS: '1'
       OPENBLAS_NUM_THREADS: '1'
     steps:
