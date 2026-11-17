@@ -1,0 +1,42 @@
+{
+  "parameters": {
+    "model_a": "outputs/experiments/formal_20261117_monthly/prediction/network/predictions.csv",
+    "model_b": "outputs/experiments/formal_20261117_monthly/prediction/traditional/predictions.csv",
+    "label_a": "network",
+    "label_b": "traditional",
+    "truth": "outputs/prepared_inputs/formal_20261117/daily_returns.csv",
+    "output_dir": "outputs/experiments/formal_20261117_monthly/evaluation/network__vs__traditional",
+    "nw_lag": 5,
+    "truth_encoding": "utf-8-sig",
+    "frequency": "monthly",
+    "min_month_coverage": 0.8,
+    "include_last_observed_month": false,
+    "overwrite": false
+  },
+  "inputs": [
+    {
+      "path": "outputs/experiments/formal_20261117_monthly/prediction/network/predictions.csv",
+      "sha256": "ad10d8e15a5404fe966309d3fe4766905ed8d11f758527ea831bd93c5ed280f0"
+    },
+    {
+      "path": "outputs/experiments/formal_20261117_monthly/prediction/traditional/predictions.csv",
+      "sha256": "25806aada6706d07adb71e2b5f36457c7850d2b092047661877781d724ec076a"
+    },
+    {
+      "path": "outputs/prepared_inputs/formal_20261117/daily_returns.csv",
+      "sha256": "8d89e38694cc53793fbd67ed13013585f77c423e0083ed24873cfbfed71a4e54"
+    }
+  ],
+  "common_observations": 25435,
+  "common_periods": 47,
+  "rows_before_alignment": {
+    "model_a": 28294,
+    "model_b": 28294,
+    "truth": 36420
+  },
+  "versions": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1"
+  }
+}

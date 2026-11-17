@@ -1,0 +1,13 @@
+"model","state_type","state","mean_R_LS","nw_se","nw_t_stat","nw_p_value"
+"Conventional-factor","Contemporaneous market direction","Down market",0.00698903057561744,0.00586272827866267,1.19211231416846,0.247170654089898
+"Conventional-factor","Contemporaneous market direction","Up market",0.0134060741538786,0.0141118280553946,0.949988484925866,0.351212290392099
+"Network-enhanced","Contemporaneous market direction","Down market",0.0359630671319545,0.00455000657902787,7.90395936957922,1.40407044881134e-07
+"Network-enhanced","Contemporaneous market direction","Up market",0.0546533325142061,0.0136301147402359,4.00974852785871,0.000483191647905305
+"Network-factor","Contemporaneous market direction","Down market",0.0288733839082607,0.00412844995306367,6.99375897407552,8.70942401165104e-07
+"Network-factor","Contemporaneous market direction","Up market",0.0445964777075775,0.0115066055199838,3.87572839184639,0.000681255062066121
+"Conventional-factor","Lagged market volatility","High volatility",0.0162568568010454,0.0100507829399007,1.61747168337575,0.121440405701319
+"Conventional-factor","Lagged market volatility","Low volatility",0.00592052220257143,0.00987376672118948,0.599621438277022,0.554154736035469
+"Network-enhanced","Lagged market volatility","High volatility",0.0319923155747414,0.0140002720738356,2.28512098950778,0.0333592766898573
+"Network-enhanced","Lagged market volatility","Low volatility",0.0578604780027244,0.00930191710645738,6.22027452411479,1.66031973065087e-06
+"Network-factor","Lagged market volatility","High volatility",0.0252888829545859,0.0120106879807932,2.10553158944987,0.0480823487344324
+"Network-factor","Lagged market volatility","Low volatility",0.0474916515547763,0.00994924268170813,4.77339362141509,6.70326125136685e-05

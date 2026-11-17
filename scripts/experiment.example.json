@@ -1,0 +1,16 @@
+{
+  "frequency": "daily",
+  "start_date": "2022-07-01",
+  "end_date": "2026-03-30",
+  "output_dir": "../outputs/experiments/daily_v1",
+  "truth": "../data/processed/daily_returns.csv",
+  "truth_encoding": "utf-8-sig",
+  "models": {
+    "conventional": {"factor_path": "../data/processed/conventional_features.csv"},
+    "network": {"factor_path": "../outputs/features/network_features.csv"},
+    "combined": {"factor_path": "../data/processed/combined_features.csv"}
+  },
+  "comparisons": [["network", "conventional"], ["combined", "conventional"]],
+  "prediction": {"n_jobs": 4, "min_train_days": 60, "min_train_months": 12, "min_month_coverage": 0.8},
+  "nw_lag": 5
+}

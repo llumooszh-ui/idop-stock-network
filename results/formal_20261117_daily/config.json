@@ -1,0 +1,37 @@
+{
+  "frequency": "daily",
+  "start_date": "2022-07-01",
+  "end_date": "2026-03-30",
+  "output_dir": "../../experiments/formal_20261117_daily",
+  "truth": "daily_returns.csv",
+  "truth_encoding": "utf-8-sig",
+  "calendar": "calendar.csv",
+  "models": {
+    "traditional": {
+      "factor_path": "external/科创板传统因子.csv"
+    },
+    "network": {
+      "factor_path": "external/科创板网络因子.csv"
+    },
+    "combined": {
+      "factor_path": "external/科创板传统因子+网络因子.csv"
+    }
+  },
+  "comparisons": [
+    [
+      "network",
+      "traditional"
+    ],
+    [
+      "combined",
+      "traditional"
+    ]
+  ],
+  "prediction": {
+    "n_jobs": 4,
+    "min_train_days": 60,
+    "min_train_months": 12,
+    "min_month_coverage": 0.8
+  },
+  "nw_lag": 5
+}

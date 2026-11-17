@@ -17,3 +17,9 @@ venv/
 .env
 .env.*
 !.env.example
+
+# Generated network matrices and audit outputs
+/outputs/
+
+# Local real-market example inputs (synthetic examples are generated separately)
+/data/example/*.csv

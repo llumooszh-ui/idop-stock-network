@@ -1,0 +1,29 @@
+[
+  {
+    "model": "traditional",
+    "dates": 907,
+    "stocks": 606,
+    "finite_predictions": 501866,
+    "same_missing_mask": true,
+    "max_abs_difference": 1.0061396160665481e-16,
+    "rmse_difference": 2.37921397250277e-18
+  },
+  {
+    "model": "network",
+    "dates": 907,
+    "stocks": 606,
+    "finite_predictions": 501823,
+    "same_missing_mask": true,
+    "max_abs_difference": 1.0061396160665481e-16,
+    "rmse_difference": 2.6367477527040744e-18
+  },
+  {
+    "model": "combined",
+    "dates": 907,
+    "stocks": 606,
+    "finite_predictions": 501866,
+    "same_missing_mask": true,
+    "max_abs_difference": 1.0061396160665481e-16,
+    "rmse_difference": 2.833929733681123e-18
+  }
+]

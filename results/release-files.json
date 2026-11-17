@@ -1,0 +1,507 @@
+[
+  {
+    "file": "formal_20261117_daily/REPORT.md",
+    "sha256": "753f24fba6b3c6773b92ce138215365c3f1009c81fee8b141bdb297a5daa8c36",
+    "bytes": 3140
+  },
+  {
+    "file": "formal_20261117_daily/config.json",
+    "sha256": "a2460e7964eccc4eacdae54ec92ebf45203381459b8141ae34b243bab7d74dab",
+    "bytes": 784
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/combined__vs__traditional/manifest.json",
+    "sha256": "7ab5ae449f3f034153a7a9119ed6a7e8b5a5cfcbfe7a33aacccb6b107c055865",
+    "bytes": 1446
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/combined__vs__traditional/model_summary.csv",
+    "sha256": "8bd354bf20045c251b26b4ff6b069f34aaa2aba79ff9c8b1c775cef527b2f205",
+    "bytes": 662
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/combined__vs__traditional/newey_west_tests.csv",
+    "sha256": "5cc05ab72695628f0e934cc3656183d91f26f67f4e3058dd73b41dfb71b1bb06",
+    "bytes": 513
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/combined__vs__traditional/period_method_differences.csv",
+    "sha256": "302a7db8e868fa060cf30aca5940d884d783e65a4c896ccb1fda020b25dc2644",
+    "bytes": 69377
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/combined__vs__traditional/period_metrics.csv",
+    "sha256": "3fe937f131fc8ddb8efe2671ece8f8adaed2002799c38547dc3e3e9a8f891fbb",
+    "bytes": 197167
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/network__vs__traditional/manifest.json",
+    "sha256": "f63f55fb1df881b0106b218afbc2f635f61c102ba362c20c5a13ba4e5ab9c0fb",
+    "bytes": 1442
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/network__vs__traditional/model_summary.csv",
+    "sha256": "5ae60a921f74c74a0c79679199b59555b43cc7d9062e4d657e7b29fe90f4afab",
+    "bytes": 664
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/network__vs__traditional/newey_west_tests.csv",
+    "sha256": "5349bd5af474cf4a2ce3be986b5bd3d88345dec9509475debb9b60dcc31dd9e3",
+    "bytes": 510
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/network__vs__traditional/period_method_differences.csv",
+    "sha256": "ffc2052df059d6e6bed7a80d7768dd739a2580d78846979b66ea103afca9df88",
+    "bytes": 69398
+  },
+  {
+    "file": "formal_20261117_daily/evaluation/network__vs__traditional/period_metrics.csv",
+    "sha256": "b421f9153f7268e338bc14d44a85b647c083515ecf6d058f27f9886330c36b6b",
+    "bytes": 196387
+  },
+  {
+    "file": "formal_20261117_daily/historical_prediction_comparison.json",
+    "sha256": "c44b6ab0d0b44f23b7ab56b0fb2e441b5bfb87c96c21f1d5fbfa1bf8f6c203c8",
+    "bytes": 698
+  },
+  {
+    "file": "formal_20261117_daily/prediction/combined/importance.csv",
+    "sha256": "9cea7b7767f69abdb7ff5a0043bb7fd26df4f0eda95cf73cc39845131c3ac2f4",
+    "bytes": 28476
+  },
+  {
+    "file": "formal_20261117_daily/prediction/combined/importance_monthly.csv",
+    "sha256": "92d2bef39ae51026e5699ba439dfafe6a81e5b87c81676520aa79a29a3177d47",
+    "bytes": 697853
+  },
+  {
+    "file": "formal_20261117_daily/prediction/combined/manifest.json",
+    "sha256": "23412c7555a6b34bb303cdf539c485e5b06b89d02e93939a93bd905357aa8411",
+    "bytes": 9246
+  },
+  {
+    "file": "formal_20261117_daily/prediction/combined/predictions.csv",
+    "sha256": "b90131beaec87b21150c02cad0fd34c2d6b2d965a161d3923ba2fbbeb0542d50",
+    "bytes": 11048083
+  },
+  {
+    "file": "formal_20261117_daily/prediction/network/importance.csv",
+    "sha256": "0b0bd33232e073d5aafd947a049698c7f7a2eb990a300b4c8f5d175045cd7891",
+    "bytes": 13658
+  },
+  {
+    "file": "formal_20261117_daily/prediction/network/importance_monthly.csv",
+    "sha256": "0ccf75ddc72b15afb2f9586d875f1c2123e301e0fabb76a10029ff72260d5591",
+    "bytes": 347839
+  },
+  {
+    "file": "formal_20261117_daily/prediction/network/manifest.json",
+    "sha256": "3da09c67c635c9bf4a35aa4767454bf986ef6ed532b492432cdde30c618613da",
+    "bytes": 6083
+  },
+  {
+    "file": "formal_20261117_daily/prediction/network/predictions.csv",
+    "sha256": "4c776d0091256dba84fe5c13c6230d944987f015251e901a4ba6fb161ddd7935",
+    "bytes": 11035883
+  },
+  {
+    "file": "formal_20261117_daily/prediction/traditional/importance.csv",
+    "sha256": "d02d56223edda546fb098e367b9bfd68023e8421f346345d025433eeab3c04db",
+    "bytes": 18937
+  },
+  {
+    "file": "formal_20261117_daily/prediction/traditional/importance_monthly.csv",
+    "sha256": "24c0a16522f23001be74885618cd23ec910ab828161b7fd21555643bbab7446a",
+    "bytes": 455663
+  },
+  {
+    "file": "formal_20261117_daily/prediction/traditional/manifest.json",
+    "sha256": "a822873219e7729581ff32915c7c94c886247b1fd316a2e8ff94b99ef3bef8dd",
+    "bytes": 6564
+  },
+  {
+    "file": "formal_20261117_daily/prediction/traditional/predictions.csv",
+    "sha256": "30d31abcd6060e1fe45dec2d94e79100f069dfef3030ae4918045fbdc07867f1",
+    "bytes": 11136976
+  },
+  {
+    "file": "formal_20261117_daily/run_manifest.json",
+    "sha256": "4c07f537713e9ae66b3bbca230cfacfbe4fd414cc5bb5f5a1bdf30c913b1ba91",
+    "bytes": 4232
+  },
+  {
+    "file": "formal_20261117_monthly/REPORT.md",
+    "sha256": "73ee2ae72711e53fda34cec9a7fb1d43bcbe33dd8a2705e525fbd82e53f96d84",
+    "bytes": 4798
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_1_Table_Returns_of_Portfolios_Sorted_by_Predicted_Returns.csv",
+    "sha256": "10dfa4a7581bcd2d3cff9415c31449219f8127623c0ea55535a31d86c0e699ce",
+    "bytes": 724
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_1_十分组平均收益曲线.png",
+    "sha256": "18eeeecc4fe3ac51e42d24d4133aef9d1f2e0fe9bb71cc2e9a1a344c6b01ccbb",
+    "bytes": 151858
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_1_十分组收益统计.csv",
+    "sha256": "270ce2e68ccfd72ca62a8608b1ac38529afcee1685d03276ae323365eda23b97",
+    "bytes": 4717
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_1_十分组月度收益.csv",
+    "sha256": "706af0d3bbe3bf830d14fcf105a790b76ccd81a5efefb6831967e5a235ca4b0a",
+    "bytes": 118808
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_2_Table_Long_Short_Portfolio_Performance.csv",
+    "sha256": "3ea20609faff76dcb5b7dab151fd5cc1e7737bdc552dc6cf932c21c885fb58cd",
+    "bytes": 946
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_2_累计多空收益.csv",
+    "sha256": "081d142a4ae81b4506fc231103845ce4bc23e1fa8911dcc2d8122974b671c187",
+    "bytes": 10913
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_2_累计多空收益曲线.png",
+    "sha256": "4ee0bd70a9d6253c3072bb9fa8e513cb92a5d0d8376732fd4d8bd211404aff55",
+    "bytes": 143196
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_2_网络增强相对传统组合增量检验.csv",
+    "sha256": "3022f06eaad56b7fc442f027b16203e9b7c06e23e2bd3dbbe43925d72bd2f60c",
+    "bytes": 189
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_3_CAPM_FF3_FF5_完整回归结果.csv",
+    "sha256": "7d1b2f7730787d39a4e51dee6ec24f5be66f673a119ab66eb8fe02d2aeed75b9",
+    "bytes": 4704
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_3_Table_Incremental_Risk_Adjusted_Performance.csv",
+    "sha256": "950971ef541202d8246e2033e029f29399cff8462a5f32c16f96c96111e25a8b",
+    "bytes": 412
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_3_Table_Risk_Adjusted_Performance.csv",
+    "sha256": "77fd46a228e4d4e72c2318c74e201f89c79e69dae3fe6da48ff53cd78a949bc6",
+    "bytes": 632
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_3_增量组合CAPM_FF3_FF5完整回归结果.csv",
+    "sha256": "c30c5cbd6716d7237961124021ec8d3fae77e1a63b058b49be01ce4b31f634f4",
+    "bytes": 1836
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_3_月度十分组收益.csv",
+    "sha256": "706af0d3bbe3bf830d14fcf105a790b76ccd81a5efefb6831967e5a235ca4b0a",
+    "bytes": 118808
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_3_月度多空组合收益.csv",
+    "sha256": "3d65646cf483209290e6b6d3d8ccc8e2c5b4ba700560c0a93c33bc50d45521cf",
+    "bytes": 8416
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_4_Table_Transaction_Cost_Test.csv",
+    "sha256": "1e49317e10775a5491f2e2cd3fc332804fa91d47a70d74d2cc1f0cb684a2f0f1",
+    "bytes": 447
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_4_交易成本检验明细.csv",
+    "sha256": "8134c62688b94f827c26b5ab40f0b3472933a264e75b3a170eb9214f48e553a3",
+    "bytes": 942
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_4_交易成本调整后月度收益.csv",
+    "sha256": "801ba020e2412a04bee7308fb8d0ea9881eb310a4a8afba907cb48c3a3ad6732",
+    "bytes": 43972
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_4_多空组合换手率.csv",
+    "sha256": "49ff6fded2161603b7dd4c632f5553e5039a30e82ffc998cacd392e33af1c2bc",
+    "bytes": 6620
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_5_Table_Market_State_Performance.csv",
+    "sha256": "6897244fecd1c35635f48bb539bb5de8a635527a977b37f6825be98d8cf4c223",
+    "bytes": 1767
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/4_4_5_市场状态多空月度收益样本.csv",
+    "sha256": "485f4222ce31215934f0179bb8acc8451ce2937f8ac8a8717a432b08f716a6ee",
+    "bytes": 18092
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/group_returns.csv",
+    "sha256": "706af0d3bbe3bf830d14fcf105a790b76ccd81a5efefb6831967e5a235ca4b0a",
+    "bytes": 118808
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/long_short_returns.csv",
+    "sha256": "3d65646cf483209290e6b6d3d8ccc8e2c5b4ba700560c0a93c33bc50d45521cf",
+    "bytes": 8416
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing/sample_counts.csv",
+    "sha256": "ae764a6a18c8de4a954247621e31b5e6e57e49fd3ede1ca2554f90482ecab979",
+    "bytes": 6880
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_1_Table_Returns_of_Portfolios_Sorted_by_Predicted_Returns.csv",
+    "sha256": "bb1667f19f365174dcb0891c1cba1207f796bb1ee6c52dbf4c35846c9a9c6b55",
+    "bytes": 724
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_1_十分组平均收益曲线.png",
+    "sha256": "a730bb76ef82b515e43ea6fc3608af516006f4191fe2d5eab89c96947243f843",
+    "bytes": 152785
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_1_十分组收益统计.csv",
+    "sha256": "c588dec81b5d392833301f102a5d4b90485e423928171c04885e24c25856180f",
+    "bytes": 4723
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_1_十分组月度收益.csv",
+    "sha256": "ee435d0ba92f79e4389659218e0bfd79a66ae7a3910f4e0f062d34d4add548be",
+    "bytes": 118807
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_2_Table_Long_Short_Portfolio_Performance.csv",
+    "sha256": "c0869496c12c3e921916b8cdc909726daf9bce261aabe79b428aa422c65b9e06",
+    "bytes": 945
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_2_累计多空收益.csv",
+    "sha256": "97e7d63b7bc7298b82a1165f6cb148a2a59f9b19ff59e729466e1fce9a5676e3",
+    "bytes": 10909
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_2_累计多空收益曲线.png",
+    "sha256": "4cb4c77203248844faa34fcbe76c3e5922c211b0c63fb72533ccc208c270ec35",
+    "bytes": 143053
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_2_网络增强相对传统组合增量检验.csv",
+    "sha256": "b0ca741eca3d99818ff9b52f789668fcab12fc4351cffcaeb1d28c0938a182a4",
+    "bytes": 188
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_3_CAPM_FF3_FF5_完整回归结果.csv",
+    "sha256": "e7fb98649258c424e913f413353b40ebd251d9cbb8f74423d7f90a79da8426a0",
+    "bytes": 4706
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_3_Table_Incremental_Risk_Adjusted_Performance.csv",
+    "sha256": "8c6fc26ad841493664aab0bca07ad3312df21e632a98ce3e3df3708aefbb7269",
+    "bytes": 414
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_3_Table_Risk_Adjusted_Performance.csv",
+    "sha256": "d27b16b5f5bf7785318d2a9072d85f712399ec90a9206da95fe85f3abff01b5d",
+    "bytes": 632
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_3_增量组合CAPM_FF3_FF5完整回归结果.csv",
+    "sha256": "c9dd1abf6a030badbca97afad9863cb41c587a64b260bde9cbda1db18b234434",
+    "bytes": 1839
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_3_月度十分组收益.csv",
+    "sha256": "ee435d0ba92f79e4389659218e0bfd79a66ae7a3910f4e0f062d34d4add548be",
+    "bytes": 118807
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_3_月度多空组合收益.csv",
+    "sha256": "c639d88f325e4358f6693ecb563368a4d2f1607fa69066b19cd93b4a29e87cea",
+    "bytes": 8418
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_4_Table_Transaction_Cost_Test.csv",
+    "sha256": "6276cd654b3c950ebaadb88c2c83a5dac5169678cb83ff727383461c668204a5",
+    "bytes": 445
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_4_交易成本检验明细.csv",
+    "sha256": "57e6bb3c4a0c433d5d8a397c00c22321afdb80c17b8dd6a7bd3bef0a0a028bfe",
+    "bytes": 942
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_4_交易成本调整后月度收益.csv",
+    "sha256": "3130c6e6968b375435c5f4d6ee7aa96e3f026ee1ef8e398507265bb22d30d15b",
+    "bytes": 43975
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_4_多空组合换手率.csv",
+    "sha256": "eea959eca051b3b27b63aee9425affde1fa4e2de1a072d270ed6f75d658a2711",
+    "bytes": 6620
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_5_Table_Market_State_Performance.csv",
+    "sha256": "f779a3e9eb4780db888047892d1c9350458422fd117dd87b4c5c8c4424e5eab3",
+    "bytes": 1765
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/4_4_5_市场状态多空月度收益样本.csv",
+    "sha256": "94c39217dec5ff0158fd064f04b26392735309c28db8c5b0eddea35786283444",
+    "bytes": 18094
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/ROBUSTNESS_REPORT.md",
+    "sha256": "b98a08b9e244aa4e355253606a0b506dacac3b0eeaeee94bfccff44672e880c6",
+    "bytes": 2352
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/costs_comparison.csv",
+    "sha256": "844d7777719b68f9f7f14132fc08df642936786218b3554ad63efa9b4c5801e1",
+    "bytes": 1253
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/group_returns.csv",
+    "sha256": "ee435d0ba92f79e4389659218e0bfd79a66ae7a3910f4e0f062d34d4add548be",
+    "bytes": 118807
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/incremental_alpha_comparison.csv",
+    "sha256": "90168b6834bc6e7e2ca8ee2935af093eedca10febf7062d4a39f9373d2e1592c",
+    "bytes": 1319
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/long_short_returns.csv",
+    "sha256": "c639d88f325e4358f6693ecb563368a4d2f1607fa69066b19cd93b4a29e87cea",
+    "bytes": 8418
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/performance_comparison.csv",
+    "sha256": "00eaa61d9fc8e01ce734c02856cf8f1560a8e20d06894d480248d35589815807",
+    "bytes": 2766
+  },
+  {
+    "file": "formal_20261117_monthly/asset_pricing_common/sample_counts.csv",
+    "sha256": "fb53e43abd9488906d73649fa3d5db757c2087a323897a11b43e581080e4a7dd",
+    "bytes": 6880
+  },
+  {
+    "file": "formal_20261117_monthly/config.json",
+    "sha256": "fdb759cf8a1063efc16f3e814f9b422ce2c3d9c4a38edcc2c4ed193180b6bd8e",
+    "bytes": 788
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/combined__vs__traditional/manifest.json",
+    "sha256": "7e02b4d6ef893a9158f0054e3bab17c397c9e28e9618f7f87b80b9a24b7a2461",
+    "bytes": 1453
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/combined__vs__traditional/model_summary.csv",
+    "sha256": "71bb5fba0044a0afe7a88870fd102a25a33878c64e543b864f7fbcf3cbd556f1",
+    "bytes": 650
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/combined__vs__traditional/newey_west_tests.csv",
+    "sha256": "eadbf412ee5e453b1f2516539b87143bbe719ddb85d19a27c5ed4bf564791195",
+    "bytes": 466
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/combined__vs__traditional/period_method_differences.csv",
+    "sha256": "15d029b528446321413f3691d50119ee256711f5bcfb296758767e4f086912d7",
+    "bytes": 3554
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/combined__vs__traditional/period_metrics.csv",
+    "sha256": "0e68c2b3c802e1c7bd0d8f392bd4a449b56e50eee22795bae9eac7b8f87e35b8",
+    "bytes": 10043
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/network__vs__traditional/manifest.json",
+    "sha256": "c44d9588c9cd8fa91cb24816a039eb052837fbd65f94207d25071c42f5b85783",
+    "bytes": 1449
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/network__vs__traditional/model_summary.csv",
+    "sha256": "52a530dc5462d7bb3b993a352a5910d4414cdd03d8b0d4a0ee2828c68f6bf111",
+    "bytes": 652
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/network__vs__traditional/newey_west_tests.csv",
+    "sha256": "351ce94225c87c07e2bbff158b96628506abeca2b251713cc62914c0a7c407ea",
+    "bytes": 463
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/network__vs__traditional/period_method_differences.csv",
+    "sha256": "34386e3a20f4d63033a6f490edf8472e1148d11543d28d466ed7a27657cb4110",
+    "bytes": 3564
+  },
+  {
+    "file": "formal_20261117_monthly/evaluation/network__vs__traditional/period_metrics.csv",
+    "sha256": "d3cd64558ef84497c7606bc6c575cfd14fdc5dda3914069edc9ed4abfa4c8995",
+    "bytes": 10015
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/combined/importance.csv",
+    "sha256": "74eb2a3a51e1151d51a78bfd67d39add290b541d9275e752b8650b9df3364b95",
+    "bytes": 32217
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/combined/importance_monthly.csv",
+    "sha256": "137443abf9669840abce503af788d99e7cff83b6f24a7dc0a6498e5b94a7ac5d",
+    "bytes": 943427
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/combined/manifest.json",
+    "sha256": "f05059fa7daf4c427286c204e19cf35a837bcfbdfaf52f7357204d7b1a0a56a7",
+    "bytes": 9269
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/combined/predictions.csv",
+    "sha256": "3bf373441ac705ea9cc11f5a72dfb7a78f758a3c2807245daabc157942ab090d",
+    "bytes": 544860
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/network/importance.csv",
+    "sha256": "03f8411d1a128e6ef2741c548811186a17ef52d8aea0a8e000fe5d28f02273ce",
+    "bytes": 13678
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/network/importance_monthly.csv",
+    "sha256": "48ae5ae8fb61559be6222c7d65bcd4b2bc6e2a892f944a4478805abf17ef56c7",
+    "bytes": 443360
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/network/manifest.json",
+    "sha256": "390bdaf37c73630ebe16ec272b0168f4e5b929b3b6abb103779de038aee4101d",
+    "bytes": 6106
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/network/predictions.csv",
+    "sha256": "ad10d8e15a5404fe966309d3fe4766905ed8d11f758527ea831bd93c5ed280f0",
+    "bytes": 545662
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/traditional/importance.csv",
+    "sha256": "52f73bb5a7d8ac4a2f0d9d279e032bf1d29e681cb6bf1b6416bc781eb0766b97",
+    "bytes": 18288
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/traditional/importance_monthly.csv",
+    "sha256": "d94b2e89f95a3f415403d18bab13a30f91b3340ed6ecbb99bdbc768bfbe35463",
+    "bytes": 558804
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/traditional/manifest.json",
+    "sha256": "1bc0dffdb5f46704412141f4e2bd38e6b0ffa0a6074b72f4424dc3b802a5b273",
+    "bytes": 6587
+  },
+  {
+    "file": "formal_20261117_monthly/prediction/traditional/predictions.csv",
+    "sha256": "25806aada6706d07adb71e2b5f36457c7850d2b092047661877781d724ec076a",
+    "bytes": 543771
+  },
+  {
+    "file": "formal_20261117_monthly/run_manifest.json",
+    "sha256": "821a4a6165e886f1c1e603821ebc88807740607c4d0d330356562664bafe25f7",
+    "bytes": 4262
+  }
+]
