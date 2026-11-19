@@ -1,0 +1,48 @@
+{
+  "models": {
+    "undirected_network": {
+      "path": "external/科创板无向网络因子_89.csv",
+      "rows": 607633,
+      "features": 89,
+      "sha256": "57c947e091226d841ca5b61f40e3a9fddc12eea95ad3d618e51390ebdf4e5861",
+      "missing_feature_cells": 1054002,
+      "infinite_feature_cells": 102,
+      "keys_and_labels_match": true,
+      "traditional_values_match": null
+    },
+    "undirected_combined": {
+      "path": "external/科创板传统因子+无向网络因子.csv",
+      "rows": 607633,
+      "features": 211,
+      "sha256": "7794938098df55785ba969821aa88976338f84a44b6382045dc785b6a6f37144",
+      "missing_feature_cells": 7165705,
+      "infinite_feature_cells": 102,
+      "keys_and_labels_match": true,
+      "traditional_values_match": true
+    },
+    "correlation_network": {
+      "path": "external/科创板相关性网络因子_89.csv",
+      "rows": 607633,
+      "features": 89,
+      "sha256": "328fad337fb16e7f85bf4a4e8c45def317e53d1fed7a8cd3c5c886460a2601f9",
+      "missing_feature_cells": 4228433,
+      "infinite_feature_cells": 52,
+      "keys_and_labels_match": true,
+      "traditional_values_match": null
+    },
+    "correlation_combined": {
+      "path": "external/科创板传统因子+相关性网络因子.csv",
+      "rows": 607633,
+      "features": 211,
+      "sha256": "d3502cb0ea74489478e54aac8e6fba0cdc07a8241c59202e9a88151935a0ffc8",
+      "missing_feature_cells": 10340136,
+      "infinite_feature_cells": 52,
+      "keys_and_labels_match": true,
+      "traditional_values_match": true
+    }
+  },
+  "correlation_stages": 411,
+  "correlation_layers": 22,
+  "all_density_targets_met": true,
+  "source": "historical prepared feature tables; not regenerated in this run"
+}

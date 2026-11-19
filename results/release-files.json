@@ -503,5 +503,230 @@
     "file": "formal_20261117_monthly/run_manifest.json",
     "sha256": "821a4a6165e886f1c1e603821ebc88807740607c4d0d330356562664bafe25f7",
     "bytes": 4262
+  },
+  {
+    "file": "network_benchmarks_20261119/REPORT.md",
+    "sha256": "33634bded447783fc6389797fe39d2587d4a54303a43e95cf063fd15042666bf",
+    "bytes": 4988
+  },
+  {
+    "file": "network_benchmarks_20261119/correlation_thread_probe.json",
+    "sha256": "0469634b289647cac00fd3d2035b7b4a1c78aa00b64e61931e8c72f64e04b3f2",
+    "bytes": 274
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_combined/manifest.json",
+    "sha256": "874c3dc45e6075b3e6667bc250441a46dee7b813f2da6ed63a52769ec6a80c3d",
+    "bytes": 1491
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_combined/model_summary.csv",
+    "sha256": "4593cc1c8834e523188a37ef0c2ab5531e2faff7ac99ddf6c549f2f29b51cd1c",
+    "bytes": 672
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_combined/newey_west_tests.csv",
+    "sha256": "e983bcca56cc3f3f192cee79a1e8be9028bd96eb8be261694685e5c9f1bc5c05",
+    "bytes": 530
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_combined/period_method_differences.csv",
+    "sha256": "a9667beb509b2306833160f77c02920f8151bd52dd2ddb5d03a6a7da73e5e11e",
+    "bytes": 69615
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_combined/period_metrics.csv",
+    "sha256": "4b9541f90b8d47b6b4921f26ef7303c6181d1bfcbd1db0802f65623493d2fcf1",
+    "bytes": 209442
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_network/manifest.json",
+    "sha256": "d1ce108f02c0dd0b6a2237c059a7ba4e5a6ad978e223706894c271e84688ff86",
+    "bytes": 1484
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_network/model_summary.csv",
+    "sha256": "f0b825228abaf48a9808d7f1bb583620e4d052780d4a60df510485f608a33282",
+    "bytes": 673
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_network/newey_west_tests.csv",
+    "sha256": "3906fb61ce812b70719f43755fd61b38e11eee4987923da29385226dea140c09",
+    "bytes": 518
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_network/period_method_differences.csv",
+    "sha256": "bee078a0dd332a5bbe0ecee03d7af509cd8f7115e98aac1f91b53e9401575a24",
+    "bytes": 69555
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/correlation_network/period_metrics.csv",
+    "sha256": "c7df9852c6df2364effa9d464b5312a6888135f883efd439e461558ad2d91e67",
+    "bytes": 207877
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_combined/manifest.json",
+    "sha256": "7d03bb96096e352b2e2fa4b79299c73bc7ed1c797274222bd737d870671bae92",
+    "bytes": 1487
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_combined/model_summary.csv",
+    "sha256": "fd924bbae57d880d530ac5af861cb5225589aeddda8eb94b1e1fee07f274f5e6",
+    "bytes": 672
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_combined/newey_west_tests.csv",
+    "sha256": "b320eed138cdaf325cc32fa507c8c9b42ec2a43b0e86f6ac5b02799b77cf4e1d",
+    "bytes": 530
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_combined/period_method_differences.csv",
+    "sha256": "d2175aa83c2a302da86798ad28354cb02502dee4d21734bf09cfd815a35d817a",
+    "bytes": 69528
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_combined/period_metrics.csv",
+    "sha256": "956f2ff961165c4a2e241463a00c1c473b5525e2943b0d0fbb2b807298b3a2dd",
+    "bytes": 208680
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_network/manifest.json",
+    "sha256": "8603e5e3b84c72cc9b2d4d3718ff1f1b7173cbed7f64ec86cc6e75382679e128",
+    "bytes": 1480
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_network/model_summary.csv",
+    "sha256": "894de83c665a80c23b26d46dd9de83189b38a0c1ba55f273b54f6819b5f41d9f",
+    "bytes": 670
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_network/newey_west_tests.csv",
+    "sha256": "5ed4792f7926bfef68a9b0a0d68ca398314b9725e00aad001876462cf34c8999",
+    "bytes": 523
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_network/period_method_differences.csv",
+    "sha256": "5c512c9c96e7743ef7644201b2fb1e3866444a8af1c1ffe590d79b530e98d12b",
+    "bytes": 69592
+  },
+  {
+    "file": "network_benchmarks_20261119/evaluation/undirected_network/period_metrics.csv",
+    "sha256": "3f33747718c36a40419ac063a24abed6624976e09f99887a8cceb37d07b4fe16",
+    "bytes": 207081
+  },
+  {
+    "file": "network_benchmarks_20261119/historical_comparison.json",
+    "sha256": "d18312e6b3257ac0ef3cf637b2b73241e5b9372033379d513d1035c497b903bb",
+    "bytes": 706
+  },
+  {
+    "file": "network_benchmarks_20261119/input_audit.json",
+    "sha256": "9e3e3503f1ac81cef67b3e10344bc05f3552f4dde6e079c1141acbe986659e3b",
+    "bytes": 1731
+  },
+  {
+    "file": "network_benchmarks_20261119/matrix_audit.json",
+    "sha256": "138b1f85eb5482a0eb8834bfc269cc718a4359e3b9a1d0c52198a73fa0dbbe65",
+    "bytes": 164
+  },
+  {
+    "file": "network_benchmarks_20261119/model_summary_all.csv",
+    "sha256": "dd7d4b3a8f2a8415c5af37ec090daee8030c512206edb6971b03d553596d4934",
+    "bytes": 2256
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/correlation_combined/importance.csv",
+    "sha256": "5af68cda62b6930b0005f5ff134ae1dc99f687e521d28166efcb2612e064455a",
+    "bytes": 29318
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/correlation_combined/importance_monthly.csv",
+    "sha256": "fd78eaf2ca3b805c6e4142b8558dcfe4d32155f0dac5a59f8adb22b74e9a24ff",
+    "bytes": 750236
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/correlation_combined/manifest.json",
+    "sha256": "cb6a22317f16bf697146ebf698377642fc0729c416a1950125cc129af610d5d2",
+    "bytes": 9336
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/correlation_combined/predictions.csv",
+    "sha256": "770d79ab0040f90de1099ae4ac77d4a7ce4601ef1cc892e42fb0ce10bd52a139",
+    "bytes": 11100451
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/correlation_network/importance.csv",
+    "sha256": "92826582a2b632bdc105d6e34d18fac5bda4f06c7f420febdedaddb2b64c574c",
+    "bytes": 13957
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/correlation_network/importance_monthly.csv",
+    "sha256": "350f4b2ff90cecf1b65d8e31564c3f77ca800c18280daad2e8ed7c1885c26540",
+    "bytes": 394546
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/correlation_network/manifest.json",
+    "sha256": "0e754fff5e06751cd45e789928025b73f54d6d72167f95d6cec3b82231cce305",
+    "bytes": 6179
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/correlation_network/predictions.csv",
+    "sha256": "a008f19bf985a8c0039dcfcf81490aec519633e551cb4b740c20611be95ced1d",
+    "bytes": 11119220
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/undirected_combined/importance.csv",
+    "sha256": "6249f36aa1f2469c5865fe8a8ec8850a02a2f6dc524dd733a4d0c8da104f28f7",
+    "bytes": 28286
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/undirected_combined/importance_monthly.csv",
+    "sha256": "3441482f11746882b1e9cccafeeaae27f1d8c913d0948a50c25fa2ad2d47b297",
+    "bytes": 691297
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/undirected_combined/manifest.json",
+    "sha256": "731b0bf1a016350780d747d22898c6add7ed32903f990aea823ac3a47f12e7c0",
+    "bytes": 9326
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/undirected_combined/predictions.csv",
+    "sha256": "6f59b64c08814d500ca70f00e0a99c46c947a107b6c9edd9e25ccad5473bd5f4",
+    "bytes": 11084388
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/undirected_network/importance.csv",
+    "sha256": "b517dfe039ab7ef41e9be54f4c48307ffc878fa6f95dd4fcaf179056eb0a9729",
+    "bytes": 13381
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/undirected_network/importance_monthly.csv",
+    "sha256": "0d83037adbe8be25ff6d0740cdb7413bdab4a785a72f310674c91ef1591b66bd",
+    "bytes": 343288
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/undirected_network/manifest.json",
+    "sha256": "6dbc242491a772df1134071c5c8952df30727cac00f7e345aabe28b9bc93e093",
+    "bytes": 6169
+  },
+  {
+    "file": "network_benchmarks_20261119/prediction/undirected_network/predictions.csv",
+    "sha256": "e19f4b46ec541b37215504f3c4c50e100a633245691d7cce7e906c1d5a48d69d",
+    "bytes": 11066257
+  },
+  {
+    "file": "network_benchmarks_20261119/run_manifest.json",
+    "sha256": "945e646f90b11e41394cdc322ca021cedbaa413e09e8b679a603795390752b4d",
+    "bytes": 6257
+  },
+  {
+    "file": "network_benchmarks_20261119/significance_all.csv",
+    "sha256": "33c39e32285dfa1aa798127c310bcc833d2b612d5a6606a486dda16f5127a5ac",
+    "bytes": 1975
+  },
+  {
+    "file": "network_benchmarks_20261119/thread_probe.json",
+    "sha256": "79c42ab86cf647eda9fd0047c0776deafbfd10e6a5a8035926876b470821a64d",
+    "bytes": 226
   }
 ]

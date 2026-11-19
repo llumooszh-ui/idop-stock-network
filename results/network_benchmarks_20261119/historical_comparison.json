@@ -1,0 +1,30 @@
+[
+  {
+    "model": "undirected_network",
+    "same_missing_mask": true,
+    "max_abs_difference": 0.006514106930309502,
+    "finite_predictions": 501823,
+    "dates": 907
+  },
+  {
+    "model": "undirected_combined",
+    "same_missing_mask": true,
+    "max_abs_difference": 1.6249929660205886e-07,
+    "finite_predictions": 501866,
+    "dates": 907
+  },
+  {
+    "model": "correlation_network",
+    "same_missing_mask": true,
+    "max_abs_difference": 4.443575100324809e-09,
+    "finite_predictions": 501823,
+    "dates": 907
+  },
+  {
+    "model": "correlation_combined",
+    "same_missing_mask": true,
+    "max_abs_difference": 0.002115225743394601,
+    "finite_predictions": 501866,
+    "dates": 907
+  }
+]
