@@ -1,0 +1,41 @@
+[
+  {
+    "model": "traditional",
+    "old_file": "external/LightGBM预测收益率——下一自然月(加入网络中心性特征)/科创板下一自然月收益率预测_LightGBM_传统因子.csv",
+    "new_dates": 47,
+    "old_dates": 47,
+    "common_dates": 47,
+    "common_stocks": 602,
+    "same_dates": true,
+    "same_stock_set": true,
+    "same_missing_mask": true,
+    "max_abs_diff": 1.1102230246251565e-16,
+    "mean_abs_diff": 6.763860559959527e-19
+  },
+  {
+    "model": "network",
+    "old_file": "external/LightGBM预测收益率——下一自然月(加入网络中心性特征)/科创板下一自然月收益率预测_LightGBM_网络因子.csv",
+    "new_dates": 47,
+    "old_dates": 47,
+    "common_dates": 47,
+    "common_stocks": 602,
+    "same_dates": true,
+    "same_stock_set": true,
+    "same_missing_mask": true,
+    "max_abs_diff": 1.0408340855860843e-16,
+    "mean_abs_diff": 4.2501051375714835e-19
+  },
+  {
+    "model": "combined",
+    "old_file": "external/LightGBM预测收益率——下一自然月(加入网络中心性特征)/科创板下一自然月收益率预测_LightGBM_传统因子+网络因子.csv",
+    "new_dates": 47,
+    "old_dates": 47,
+    "common_dates": 47,
+    "common_stocks": 602,
+    "same_dates": true,
+    "same_stock_set": true,
+    "same_missing_mask": true,
+    "max_abs_diff": 1.1102230246251565e-16,
+    "mean_abs_diff": 4.379697444458455e-19
+  }
+]

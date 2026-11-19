@@ -75,7 +75,7 @@
 
 1. 锁定正式各层 effects、阶段参数和日历，完整验证 1210 日重建与 89 特征输出。
 2. 无向/相关网络的保存输入审计、正式四模型预测与评价已完成；下一步将其扩展为上游矩阵/特征完整重生成。
-3. 核对旧月频预测与论文表图对应关系，补齐许可和引用信息。
+3. 旧月频预测核对已通过；仍需作者确认最终论文表号、署名和仓库许可证。数据接入步骤与结果索引已补齐。
 
 整理后的 122/89/211 项特征表已完成一致性核验；正式预测、资产定价和共同样本检验均已完成。结果见 [results](results/README.md)，云端状态见 [成功运行记录](https://github.com/llumooszh-ui/idop-stock-network/actions/runs/44052834785)。
 
@@ -112,3 +112,5 @@ renv::restore(lockfile = "renv.lock", prompt = FALSE)
 本地上游 `idopNetwork-master/DESCRIPTION` 标注版本 0.1.2、作者 Ang Dong、许可证 `GPL (>= 3)`。本项目尚未完成代码来源和衍生关系梳理，因此尚未确定仓库许可证或发布 LICENSE。后续应保留上游署名与许可信息，并区分依赖调用、复制及修改代码。
 
 论文题目、作者、正式引用信息及各表图的最终对应关系待确认。
+
+数据接入见 [指南](docs/data-access.md)，分析产物见 [结果索引](docs/result-map.md)，上游来源见 [第三方说明](THIRD_PARTY_NOTICES.md)，引用状态见 [CITATION.md](CITATION.md)。

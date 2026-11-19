@@ -10,3 +10,8 @@
 2026-10-29 的初始源代码调查原文保存在 archive 中，保留其历史编号与来源信息。归档中的路径、迁入状态和默认值不代表当前接口；执行时以当前模块 README 和 --help 为准。
 
 - [正式整理表接入记录](prepared-traditional-input.md)：122/89/211 项全表核对及本地配置。
+
+- [授权数据接入指南](data-access.md)
+- [结果与分析内容索引](result-map.md)
+- [代码来源与第三方说明](../THIRD_PARTY_NOTICES.md)
+- [引用说明](../CITATION.md)

@@ -728,5 +728,10 @@
     "file": "network_benchmarks_20261119/thread_probe.json",
     "sha256": "79c42ab86cf647eda9fd0047c0776deafbfd10e6a5a8035926876b470821a64d",
     "bytes": 226
+  },
+  {
+    "file": "monthly_legacy_check/comparison.json",
+    "sha256": "e1821d8ba1373bc260f9a87a1b04ed0f4328c8712c39431ecc5859266b31e6d0",
+    "bytes": 1411
   }
 ]
