@@ -40,4 +40,4 @@ PYTHONPATH=src python3 -m stock_network.features.merge_features \
 PYTHONPATH=src python3 -m unittest discover -s tests -p test_traditional_features.py
 ```
 
-测试检查 41 个字段、未来收益扰动不改变当期特征、乱序键连接，以及重复、样本缺失、标签冲突拒绝。未验证正式全量传统因子或论文版本。
+测试检查 41 个字段、未来收益扰动不改变当期特征、乱序键连接，以及重复、样本缺失、标签冲突拒绝。正式 122 项整理表已完成与 89/211 项表的全量键、标签和特征值核对；不重新生成 CSMAR 原始因子。论文版本映射仍待确认。

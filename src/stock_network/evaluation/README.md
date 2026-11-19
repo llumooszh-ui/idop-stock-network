@@ -65,4 +65,4 @@ PYTHONPATH=src python3 -m stock_network.evaluation.run_evaluation \
 PYTHONPATH=src python3 -m unittest discover -s tests -p test_evaluation.py
 ```
 
-合成数据测试覆盖相关方向、常数列、Holm 校正、小样本检验、月收益复合与覆盖率、共同样本筛选、误差和输出覆盖保护。尚未运行正式全样本评估或复核论文指标。
+合成数据测试覆盖相关方向、常数列、Holm 校正、小样本检验、月收益复合与覆盖率、共同样本筛选、误差和输出覆盖保护。已完成正式日频 907 日、月频 47 月的两配对评估，见 [结果入口](../../../results/README.md)；论文最终表图映射仍待核对。
