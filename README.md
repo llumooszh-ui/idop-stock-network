@@ -161,7 +161,7 @@ Rscript tests/test_features.R .
 Rscript tests/test_asset_pricing.R .
 ```
 
-自动检查配置见 [GitHub Actions](.github/workflows/tests.yml)。
+自动检查配置见 [GitHub Actions](.github/workflows/tests.yml)，运行机制与协作模板见 [自动检查说明](.github/AUTOMATION.md)。
 
 ## 来源、署名与许可
 
